@@ -27,5 +27,12 @@
     "config": {
       "TARGET_URL": "https://d.syrlive.com"
     }
+  },
+    {
+    "name": "koora-live",
+    "kind": "step",
+    "config": {
+      "TARGET_URL": "https://www.getkoora.live"
+    }
   }
 ]
