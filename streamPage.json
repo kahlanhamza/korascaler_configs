@@ -1,0 +1,72 @@
+[
+  {
+    "id": "kora-now-target",
+    "sourceUrl": "https://www.kora-now.tv",
+    "steps": [],
+    "attempts": [
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "page"
+        },
+        {
+          "selector": "a.aplr-link",
+          "attribute": "href",
+          "type": "stream"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "yacin-target",
+    "sourceUrl": "https://yacin.net",
+    "steps": [],
+    "attempts": []
+  },
+  {
+    "id": "koora-live-target",
+    "sourceUrl": "https://www.getkoora.live",
+    "steps": [],
+    "attempts": [
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "page"
+        },
+        {
+          "selector": "a.slp-player-tab",
+          "attribute": "data-server-url",
+          "type": "stream"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "syria-live-target",
+    "sourceUrl": "https://d.syrlive.com",
+    "steps": [],
+    "attempts": [
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "page"
+        },
+        {
+          "selector": "a.slp-player-tab",
+          "attribute": "data-server-url",
+          "type": "stream"
+        }
+      ],
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "stream"
+        }
+      ]
+    ]
+  }
+]

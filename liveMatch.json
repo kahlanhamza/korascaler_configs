@@ -1,0 +1,66 @@
+[
+  {
+    "id": "kora-now-target",
+    "pageUrl": "https://www.kora-now.tv",
+    "metadataSelectors": {
+      "matchCard": ".AY_Match.live",
+      "TM1": {
+        "name": ".AY_Inner > .MT_Team.TM1 > .TM_Name",
+        "logo": ".AY_Inner > .MT_Team.TM1 > .TM_Logo > img"
+      },
+      "TM2": {
+        "name": ".AY_Inner > .MT_Team.TM2 > .TM_Name",
+        "logo": ".AY_Inner > .MT_Team.TM2 > .TM_Logo > img"
+      },
+      "matchUrl": ".AY_Match.live > a"
+    }
+  },
+  {
+    "id": "yacin-target",
+    "pageUrl": "https://yacin.net",
+    "metadataSelectors": {
+      "matchCard": ".AY_Match.live",
+      "TM1": {
+        "name": ".AY_Inner > .MT_Team.TM1 > .TM_Name",
+        "logo": ".AY_Inner > .MT_Team.TM1 > .TM_Logo > img"
+      },
+      "TM2": {
+        "name": ".AY_Inner > .MT_Team.TM2 > .TM_Name",
+        "logo": ".AY_Inner > .MT_Team.TM2 > .TM_Logo > img"
+      },
+      "matchUrl": ".AY_Match.live > a"
+    }
+  },
+  {
+    "id": "koora-live-target",
+    "pageUrl": "https://www.getkoora.live",
+    "metadataSelectors": {
+      "matchCard": "div.mc.mc-classic[data-status-initial=\"live\"]",
+      "TM1": {
+        "name": "div.mg-3.mb-md > div.mg-2m:first-child span.mt-name.mt-name-lg",
+        "logo": "div.mg-3.mb-md > div.mg-2m:first-child .mt-logo.mt-logo-lg img"
+      },
+      "TM2": {
+        "name": "div.mg-3.mb-md > div.mg-2m:last-child span.mt-name.mt-name-lg",
+        "logo": "div.mg-3.mb-md > div.mg-2m:last-child .mt-logo.mt-logo-lg img"
+      },
+      "matchUrl": "a[href]"
+    }
+  },
+  {
+    "id": "syrlive-target",
+    "pageUrl": "https://d.syrlive.com",
+    "metadataSelectors": {
+      "matchCard": "div.match-container.live",
+      "TM1": {
+        "name": "div.right-team div.team-name",
+        "logo": "div.right-team div.team-logo img"
+      },
+      "TM2": {
+        "name": "div.left-team div.team-name",
+        "logo": "div.left-team div.team-logo img"
+      },
+      "matchUrl": "a"
+    }
+  }
+]

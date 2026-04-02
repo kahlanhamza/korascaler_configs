@@ -1,0 +1,33 @@
+[
+  {
+    "name": "yacin",
+    "config": {
+      "API_URL": "https://ws.kora-api.top/api/matche",
+      "TARGET_URL": "https://yacin.net",
+      "FRAME_URLS": [
+        "https://vsys.kora-top.zip/frame.php",
+        "https://ar.kora-top.zip/frame.php",
+        "https://yalla.kora-top.zip/frame.php",
+        "https://live.kora-top.zip/frame.php"
+      ]
+    }
+  },
+  {
+    "name": "koora",
+    "config": {
+      "TARGET_URL": "https://www.kooralive.info"
+    }
+  },
+  {
+    "name": "koora-live",
+    "config": {
+      "TARGET_URL": "https://www.getkoora.live"
+    }
+  },
+    {
+    "name": "syria-live",
+    "config": {
+      "TARGET_URL": "https://d.syrlive.com"
+    }
+  }
+]
