@@ -20,5 +20,12 @@
     "config": {
       "target_url": "https://www.kora-now.tv"
     }
+  },
+   {
+    "name": "syria-live",
+    "kind": "step",
+    "config": {
+      "TARGET_URL": "https://d.syrlive.com"
+    }
   }
 ]
