@@ -1,4 +1,18 @@
-[
+[  {
+    "name": "yacin",
+    "kind": "api",
+    "config": {
+      "api_url": "https://ws.kora-api.top/api/matche/{matchId}/{lang}",
+      "target_url": "https://yacin.net",
+      "frame_urls": [
+        "https://vsys.kora-top.zip/frame.php",
+        "https://ar.kora-top.zip/frame.php",
+        "https://yalla.kora-top.zip/frame.php",
+        "https://live.kora-top.zip/frame.php"
+      ],
+      "match_id_extractor": "query_param:m"
+    }
+  },
   {
     "name": "koraa-live",
     "kind": "step",
