@@ -1,6 +1,6 @@
 [
   {
-    "name": "kora-live",
+    "name": "koraa-live",
     "kind": "step",
     "config": {
       "TARGET_URL": "https://www.koraa-live.com"
