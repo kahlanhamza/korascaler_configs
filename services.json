@@ -13,5 +13,12 @@
       ],
       "match_id_extractor": "query_param:m"
     }
+  },
+  {
+    "name": "kora-now",
+    "kind": "step",
+    "config": {
+      "TARGET_URL": "https://www.kora-now.tv"
+    }
   }
 ]
