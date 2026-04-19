@@ -1,7 +1,7 @@
 [
   {
-    "id": "kora-now-target",
-    "pageUrl": "https://www.kora-now.tv",
+    "id": "kora-live-target",
+    "pageUrl": "https://www.koraa-live.com",
     "metadataSelectors": {
       "matchCard": ".AY_Match.live",
       "TM1": {
