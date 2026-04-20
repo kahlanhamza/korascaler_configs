@@ -3,7 +3,7 @@
     "id": "kora-live-target",
     "pageUrl": "https://www.koraa-live.com",
     "metadataSelectors": {
-      "matchCard": ".AY_Match.live",
+      "matchCard": ".AY_Match.finished",
       "TM1": {
         "name": ".AY_Inner > .MT_Team.TM1 > .TM_Name",
         "logo": ".AY_Inner > .MT_Team.TM1 > .TM_Logo > img"
