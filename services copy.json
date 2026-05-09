@@ -20,5 +20,12 @@
     "config": {
       "TARGET_URL": "https://www.koraa-live.com"
     }
+  },
+  {
+    "name": "go4kora",
+    "kind": "step",
+    "config": {
+      "TARGET_URL": "https://go4sport.live"
+    }
   }
 ]

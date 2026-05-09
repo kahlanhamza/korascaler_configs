@@ -68,5 +68,31 @@
         }
       ]
     ]
+  },
+    {
+    "id": "go4kora-target",
+    "sourceUrl": "https://go4sport.live",
+    "steps": [],
+    "attempts": [
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "page"
+        },
+        {
+          "selector": "a.slp-player-tab",
+          "attribute": "data-server-url",
+          "type": "stream"
+        }
+      ],
+      [
+        {
+          "selector": "iframe",
+          "attribute": "src",
+          "type": "stream"
+        }
+      ]
+    ]
   }
 ]

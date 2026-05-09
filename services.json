@@ -1,9 +1,12 @@
 [
-  {
-    "name": "kora-live",
-    "kind": "step",
-    "config": {
-      "TARGET_URL": "https://www.koraa-live.com"
-    }
+{
+  "name": "kora-feed",
+  "kind": "json-feed",
+  "config": {
+    "api_url": "https://kora-api.space/api/matche/{matchId}/{lang}",
+    "target_url": "https://kora-api.space/api/matches/9",
+    "frame_urls": [],
+    "match_id_extractor": "id_field"
   }
+}
 ]

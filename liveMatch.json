@@ -62,5 +62,31 @@
       },
       "matchUrl": "a"
     }
+  },
+  {
+    "id": "go4kora-target",
+    "pageUrl": "https://go4sport.live",
+    "metadataSelectors": {
+      "matchCard": ".AF_Match.live",
+      "TM1": {
+        "name": ".AF_FTeam .AF_TeamName",
+        "logo": ".AF_FTeam .AF_TeamLogo img"
+      },
+      "TM2": {
+        "name": ".AF_STeam .AF_TeamName",
+        "logo": ".AF_STeam .AF_TeamLogo img"
+      },
+      "matchUrl": "a.AF_EventMask"
+    }
+  },
+  {
+  "id": "json-feed-placeholder",
+  "pageUrl": "https://kora-api.space/api/matches/9",
+  "metadataSelectors": {
+    "matchCard": "nonexistent",
+    "TM1": { "name": "", "logo": "" },
+    "TM2": { "name": "", "logo": "" },
+    "matchUrl": ""
   }
+}
 ]
