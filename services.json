@@ -5,7 +5,11 @@
     "config": {
       "api_url": "https://kora-api.space/api/matche/{matchId}/{lang}",
       "target_url": "https://kora-api.space/api/matches/9",
-      "frame_urls": ["https://vsys.kora-top.zip/frame.php"],
+      "frame_urls": [
+        "https://ar.kora-top.zip/frame.php",
+        "https://yalla.kora-top.zip/frame.php",
+        "https://live.kora-top.zip/frame.php"
+      ],
       "match_id_extractor": "id_field"
     }
   }
