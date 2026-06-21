@@ -88,5 +88,15 @@
     "TM2": { "name": "", "logo": "" },
     "matchUrl": ""
   }
+},
+{
+  "id": "json-feed-placeholder-ar",
+  "pageUrl": "https://kora-api.space/api/matches/ar",
+  "metadataSelectors": {
+    "matchCard": "nonexistent",
+    "TM1": { "name": "", "logo": "" },
+    "TM2": { "name": "", "logo": "" },
+    "matchUrl": ""
+  }
 }
 ]
